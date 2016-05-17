@@ -14,8 +14,8 @@ AR		= ar
 ASMBFLAGS	= -I boot/include/
 ASMKFLAGS	= -I include/ -I include/sys/ -f elf
 #CFLAGS		= -I include/ -I include/sys/ -c -fno-builtin -fno-stack-protector -fpack-struct -Wall
-CFLAGS		= -I include/ -I include/sys/ -c -fno-builtin -fno-stack-protector -Wall -g
-LDFLAGS		= -Ttext $(ENTRYPOINT) -Map krnl.map
+CFLAGS		= -I include/ -I include/sys/ -c -fno-builtin -fno-stack-protector -Wall -g -m32
+LDFLAGS		= -m elf_i386 -s -Ttext $(ENTRYPOINT) -Map krnl.map
 DASMFLAGS	= -D
 ARFLAGS		= rcs
 

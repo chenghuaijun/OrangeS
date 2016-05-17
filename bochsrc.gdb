@@ -7,8 +7,7 @@ megs: 32
 
 # filename of ROM images
 romimage: file=/usr/share/bochs/BIOS-bochs-latest
-vgaromimage: file=/usr/share/vgabios/vgabios.bin
-
+vgaromimage: file=/usr/share/bochs/VGABIOS-elpin-2.40 
 # what disk images will be used
 # !! Remember to change Makefile::FD if the fd img is changed:
 floppya: 1_44=fd.img, status=inserted
@@ -32,8 +31,7 @@ boot: a
 mouse: enabled=0
 
 # enable key mapping, using US layout as default.
-keyboard_mapping: enabled=1, map=/usr/share/bochs/keymaps/x11-pc-us.map
-
+keyboard:keymap=/usr/local/share/bochs/keymaps/x11-pc-uk.map
 #config_interface: nogui
 #display_library: nogui
 
