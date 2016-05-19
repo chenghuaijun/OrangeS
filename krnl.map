@@ -60,7 +60,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/clock.o
  .debug_line    0x0000000000000000       0xb5 kernel/clock.o
- .debug_str     0x0000000000000000      0x30f kernel/clock.o
+ .debug_str     0x0000000000000000      0x312 kernel/clock.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/clock.o
  .debug_info    0x0000000000000000      0x49b kernel/console.o
@@ -68,7 +68,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/console.o
  .debug_line    0x0000000000000000      0x209 kernel/console.o
- .debug_str     0x0000000000000000      0x2a1 kernel/console.o
+ .debug_str     0x0000000000000000      0x2a4 kernel/console.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/console.o
  .debug_line    0x0000000000000000        0x0 kernel/driver.o
@@ -80,7 +80,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 kernel/global.o
  .debug_line    0x0000000000000000       0x8f kernel/global.o
- .debug_str     0x0000000000000000      0x634 kernel/global.o
+ .debug_str     0x0000000000000000      0x637 kernel/global.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/global.o
  .debug_info    0x0000000000000000      0xa1e kernel/hd.o
@@ -88,7 +88,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/hd.o
  .debug_line    0x0000000000000000      0x3c7 kernel/hd.o
- .debug_str     0x0000000000000000      0x477 kernel/hd.o
+ .debug_str     0x0000000000000000      0x47a kernel/hd.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/hd.o
  .debug_info    0x0000000000000000      0x101 kernel/i8259.o
@@ -96,7 +96,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/i8259.o
  .debug_line    0x0000000000000000       0x9c kernel/i8259.o
- .debug_str     0x0000000000000000      0x113 kernel/i8259.o
+ .debug_str     0x0000000000000000      0x116 kernel/i8259.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/i8259.o
  .debug_info    0x0000000000000000      0x7d1 kernel/init.o
@@ -104,7 +104,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/init.o
  .debug_line    0x0000000000000000      0x21e kernel/init.o
- .debug_str     0x0000000000000000      0x32e kernel/init.o
+ .debug_str     0x0000000000000000      0x331 kernel/init.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/init.o
  .debug_info    0x0000000000000000      0x477 kernel/keyboard.o
@@ -112,7 +112,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/keyboard.o
  .debug_line    0x0000000000000000      0x264 kernel/keyboard.o
- .debug_str     0x0000000000000000      0x2af kernel/keyboard.o
+ .debug_str     0x0000000000000000      0x2b2 kernel/keyboard.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/keyboard.o
  .debug_info    0x0000000000000000      0x88c kernel/klib.o
@@ -120,7 +120,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/klib.o
  .debug_line    0x0000000000000000      0x125 kernel/klib.o
- .debug_str     0x0000000000000000      0x489 kernel/klib.o
+ .debug_str     0x0000000000000000      0x48c kernel/klib.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/klib.o
  .debug_info    0x0000000000000000      0x706 kernel/main.o
@@ -128,7 +128,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/main.o
  .debug_line    0x0000000000000000      0x132 kernel/main.o
- .debug_str     0x0000000000000000      0x35c kernel/main.o
+ .debug_str     0x0000000000000000      0x35f kernel/main.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/main.o
  .debug_info    0x0000000000000000      0x2da kernel/printk.o
@@ -136,7 +136,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/printk.o
  .debug_line    0x0000000000000000       0x87 kernel/printk.o
- .debug_str     0x0000000000000000      0x227 kernel/printk.o
+ .debug_str     0x0000000000000000      0x22a kernel/printk.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/printk.o
  .debug_info    0x0000000000000000      0x9d1 kernel/proc.o
@@ -144,7 +144,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/proc.o
  .debug_line    0x0000000000000000      0x4e8 kernel/proc.o
- .debug_str     0x0000000000000000      0x4c3 kernel/proc.o
+ .debug_str     0x0000000000000000      0x4c6 kernel/proc.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/proc.o
  .debug_info    0x0000000000000000      0x8d1 kernel/protect.o
@@ -152,7 +152,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/protect.o
  .debug_line    0x0000000000000000      0x148 kernel/protect.o
- .debug_str     0x0000000000000000      0x3b5 kernel/protect.o
+ .debug_str     0x0000000000000000      0x3b8 kernel/protect.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/protect.o
  .debug_info    0x0000000000000000      0x1e1 kernel/start.o
@@ -160,7 +160,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/start.o
  .debug_line    0x0000000000000000       0x8c kernel/start.o
- .debug_str     0x0000000000000000      0x1a3 kernel/start.o
+ .debug_str     0x0000000000000000      0x1a6 kernel/start.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/start.o
  .debug_info    0x0000000000000000      0x359 kernel/systask.o
@@ -168,7 +168,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/systask.o
  .debug_line    0x0000000000000000       0xcf kernel/systask.o
- .debug_str     0x0000000000000000      0x26f kernel/systask.o
+ .debug_str     0x0000000000000000      0x272 kernel/systask.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/systask.o
  .debug_info    0x0000000000000000      0x11f kernel/test.o
@@ -176,7 +176,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/test.o
  .debug_line    0x0000000000000000       0x54 kernel/test.o
- .debug_str     0x0000000000000000      0x103 kernel/test.o
+ .debug_str     0x0000000000000000      0x106 kernel/test.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/test.o
  .debug_info    0x0000000000000000      0xa7b kernel/tty.o
@@ -184,7 +184,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 kernel/tty.o
  .debug_line    0x0000000000000000      0x274 kernel/tty.o
- .debug_str     0x0000000000000000      0x524 kernel/tty.o
+ .debug_str     0x0000000000000000      0x527 kernel/tty.o
  .note.GNU-stack
                 0x0000000000000000        0x0 kernel/tty.o
  .debug_info    0x0000000000000000      0xe2c fs/disklog.o
@@ -192,7 +192,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 fs/disklog.o
  .debug_line    0x0000000000000000      0x4a4 fs/disklog.o
- .debug_str     0x0000000000000000      0x735 fs/disklog.o
+ .debug_str     0x0000000000000000      0x738 fs/disklog.o
  .note.GNU-stack
                 0x0000000000000000        0x0 fs/disklog.o
  .debug_info    0x0000000000000000      0x58b fs/link.o
@@ -200,7 +200,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 fs/link.o
  .debug_line    0x0000000000000000      0x18c fs/link.o
- .debug_str     0x0000000000000000      0x3ce fs/link.o
+ .debug_str     0x0000000000000000      0x3d1 fs/link.o
  .note.GNU-stack
                 0x0000000000000000        0x0 fs/link.o
  .debug_info    0x0000000000000000      0xc73 fs/main.o
@@ -208,7 +208,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 fs/main.o
  .debug_line    0x0000000000000000      0x3d1 fs/main.o
- .debug_str     0x0000000000000000      0x653 fs/main.o
+ .debug_str     0x0000000000000000      0x656 fs/main.o
  .note.GNU-stack
                 0x0000000000000000        0x0 fs/main.o
  .debug_info    0x0000000000000000      0x5da fs/misc.o
@@ -216,7 +216,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 fs/misc.o
  .debug_line    0x0000000000000000      0x132 fs/misc.o
- .debug_str     0x0000000000000000      0x3a6 fs/misc.o
+ .debug_str     0x0000000000000000      0x3a9 fs/misc.o
  .note.GNU-stack
                 0x0000000000000000        0x0 fs/misc.o
  .debug_info    0x0000000000000000      0xb44 fs/open.o
@@ -225,7 +225,7 @@ Discarded input sections
                 0x0000000000000000       0x20 fs/open.o
  .debug_ranges  0x0000000000000000       0x18 fs/open.o
  .debug_line    0x0000000000000000      0x2a9 fs/open.o
- .debug_str     0x0000000000000000      0x5d8 fs/open.o
+ .debug_str     0x0000000000000000      0x5db fs/open.o
  .note.GNU-stack
                 0x0000000000000000        0x0 fs/open.o
  .debug_info    0x0000000000000000      0x767 fs/read_write.o
@@ -233,7 +233,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 fs/read_write.o
  .debug_line    0x0000000000000000      0x18e fs/read_write.o
- .debug_str     0x0000000000000000      0x438 fs/read_write.o
+ .debug_str     0x0000000000000000      0x43b fs/read_write.o
  .note.GNU-stack
                 0x0000000000000000        0x0 fs/read_write.o
  .debug_info    0x0000000000000000      0x82c mm/exec.o
@@ -241,7 +241,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 mm/exec.o
  .debug_line    0x0000000000000000      0x120 mm/exec.o
- .debug_str     0x0000000000000000      0x472 mm/exec.o
+ .debug_str     0x0000000000000000      0x475 mm/exec.o
  .note.GNU-stack
                 0x0000000000000000        0x0 mm/exec.o
  .debug_info    0x0000000000000000      0x81b mm/forkexit.o
@@ -249,7 +249,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 mm/forkexit.o
  .debug_line    0x0000000000000000      0x1ef mm/forkexit.o
- .debug_str     0x0000000000000000      0x484 mm/forkexit.o
+ .debug_str     0x0000000000000000      0x487 mm/forkexit.o
  .note.GNU-stack
                 0x0000000000000000        0x0 mm/forkexit.o
  .debug_info    0x0000000000000000      0x38f mm/main.o
@@ -257,7 +257,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 mm/main.o
  .debug_line    0x0000000000000000       0xbd mm/main.o
- .debug_str     0x0000000000000000      0x285 mm/main.o
+ .debug_str     0x0000000000000000      0x288 mm/main.o
  .note.GNU-stack
                 0x0000000000000000        0x0 mm/main.o
  .debug_info    0x0000000000000000      0x281 lib/orangescrt.a(close.o)
@@ -265,7 +265,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(close.o)
  .debug_line    0x0000000000000000       0x6a lib/orangescrt.a(close.o)
- .debug_str     0x0000000000000000      0x21a lib/orangescrt.a(close.o)
+ .debug_str     0x0000000000000000      0x21d lib/orangescrt.a(close.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(close.o)
  .debug_info    0x0000000000000000      0x380 lib/orangescrt.a(exec.o)
@@ -273,7 +273,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(exec.o)
  .debug_line    0x0000000000000000       0xc7 lib/orangescrt.a(exec.o)
- .debug_str     0x0000000000000000      0x24f lib/orangescrt.a(exec.o)
+ .debug_str     0x0000000000000000      0x252 lib/orangescrt.a(exec.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(exec.o)
  .debug_info    0x0000000000000000      0x27e lib/orangescrt.a(exit.o)
@@ -281,7 +281,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(exit.o)
  .debug_line    0x0000000000000000       0x72 lib/orangescrt.a(exit.o)
- .debug_str     0x0000000000000000      0x21f lib/orangescrt.a(exit.o)
+ .debug_str     0x0000000000000000      0x222 lib/orangescrt.a(exit.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(exit.o)
  .debug_info    0x0000000000000000      0x274 lib/orangescrt.a(fork.o)
@@ -289,7 +289,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(fork.o)
  .debug_line    0x0000000000000000       0x7c lib/orangescrt.a(fork.o)
- .debug_str     0x0000000000000000      0x218 lib/orangescrt.a(fork.o)
+ .debug_str     0x0000000000000000      0x21b lib/orangescrt.a(fork.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(fork.o)
  .debug_info    0x0000000000000000      0x274 lib/orangescrt.a(getpid.o)
@@ -297,7 +297,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(getpid.o)
  .debug_line    0x0000000000000000       0x74 lib/orangescrt.a(getpid.o)
- .debug_str     0x0000000000000000      0x21c lib/orangescrt.a(getpid.o)
+ .debug_str     0x0000000000000000      0x21f lib/orangescrt.a(getpid.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(getpid.o)
  .debug_info    0x0000000000000000      0x29d lib/orangescrt.a(lseek.o)
@@ -305,7 +305,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(lseek.o)
  .debug_line    0x0000000000000000       0x6c lib/orangescrt.a(lseek.o)
- .debug_str     0x0000000000000000      0x228 lib/orangescrt.a(lseek.o)
+ .debug_str     0x0000000000000000      0x22b lib/orangescrt.a(lseek.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(lseek.o)
  .debug_info    0x0000000000000000      0x484 lib/orangescrt.a(misc.o)
@@ -313,7 +313,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(misc.o)
  .debug_line    0x0000000000000000      0x155 lib/orangescrt.a(misc.o)
- .debug_str     0x0000000000000000      0x1da lib/orangescrt.a(misc.o)
+ .debug_str     0x0000000000000000      0x1dd lib/orangescrt.a(misc.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(misc.o)
  .debug_info    0x0000000000000000      0x29f lib/orangescrt.a(open.o)
@@ -321,7 +321,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(open.o)
  .debug_line    0x0000000000000000       0x75 lib/orangescrt.a(open.o)
- .debug_str     0x0000000000000000      0x227 lib/orangescrt.a(open.o)
+ .debug_str     0x0000000000000000      0x22a lib/orangescrt.a(open.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(open.o)
  .debug_info    0x0000000000000000      0x130 lib/orangescrt.a(printf.o)
@@ -329,7 +329,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(printf.o)
  .debug_line    0x0000000000000000       0x69 lib/orangescrt.a(printf.o)
- .debug_str     0x0000000000000000       0xe1 lib/orangescrt.a(printf.o)
+ .debug_str     0x0000000000000000       0xe4 lib/orangescrt.a(printf.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(printf.o)
  .debug_info    0x0000000000000000      0x29d lib/orangescrt.a(read.o)
@@ -337,7 +337,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(read.o)
  .debug_line    0x0000000000000000       0x6b lib/orangescrt.a(read.o)
- .debug_str     0x0000000000000000      0x21e lib/orangescrt.a(read.o)
+ .debug_str     0x0000000000000000      0x221 lib/orangescrt.a(read.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(read.o)
  .debug_info    0x0000000000000000      0x2ee lib/orangescrt.a(stat.o)
@@ -345,7 +345,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(stat.o)
  .debug_line    0x0000000000000000       0x80 lib/orangescrt.a(stat.o)
- .debug_str     0x0000000000000000      0x243 lib/orangescrt.a(stat.o)
+ .debug_str     0x0000000000000000      0x246 lib/orangescrt.a(stat.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(stat.o)
  .debug_info    0x0000000000000000       0xd2 lib/orangescrt.a(syslog.o)
@@ -353,7 +353,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(syslog.o)
  .debug_line    0x0000000000000000       0x5e lib/orangescrt.a(syslog.o)
- .debug_str     0x0000000000000000       0xda lib/orangescrt.a(syslog.o)
+ .debug_str     0x0000000000000000       0xdd lib/orangescrt.a(syslog.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(syslog.o)
  .debug_info    0x0000000000000000      0x274 lib/orangescrt.a(tick.o)
@@ -361,7 +361,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(tick.o)
  .debug_line    0x0000000000000000       0x69 lib/orangescrt.a(tick.o)
- .debug_str     0x0000000000000000      0x21d lib/orangescrt.a(tick.o)
+ .debug_str     0x0000000000000000      0x220 lib/orangescrt.a(tick.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(tick.o)
  .debug_info    0x0000000000000000      0x291 lib/orangescrt.a(unlink.o)
@@ -369,7 +369,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(unlink.o)
  .debug_line    0x0000000000000000       0x6c lib/orangescrt.a(unlink.o)
- .debug_str     0x0000000000000000      0x225 lib/orangescrt.a(unlink.o)
+ .debug_str     0x0000000000000000      0x228 lib/orangescrt.a(unlink.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(unlink.o)
  .debug_info    0x0000000000000000      0x1dd lib/orangescrt.a(vsprintf.o)
@@ -377,7 +377,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(vsprintf.o)
  .debug_line    0x0000000000000000       0xf9 lib/orangescrt.a(vsprintf.o)
- .debug_str     0x0000000000000000      0x10e lib/orangescrt.a(vsprintf.o)
+ .debug_str     0x0000000000000000      0x111 lib/orangescrt.a(vsprintf.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(vsprintf.o)
  .debug_info    0x0000000000000000      0x28c lib/orangescrt.a(wait.o)
@@ -385,7 +385,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(wait.o)
  .debug_line    0x0000000000000000       0x79 lib/orangescrt.a(wait.o)
- .debug_str     0x0000000000000000      0x21f lib/orangescrt.a(wait.o)
+ .debug_str     0x0000000000000000      0x222 lib/orangescrt.a(wait.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(wait.o)
  .debug_info    0x0000000000000000      0x2a8 lib/orangescrt.a(write.o)
@@ -393,7 +393,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 lib/orangescrt.a(write.o)
  .debug_line    0x0000000000000000       0x6c lib/orangescrt.a(write.o)
- .debug_str     0x0000000000000000      0x220 lib/orangescrt.a(write.o)
+ .debug_str     0x0000000000000000      0x223 lib/orangescrt.a(write.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 lib/orangescrt.a(write.o)
 
